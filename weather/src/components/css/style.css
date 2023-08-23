@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.weather h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(197, 182, 182);
+}
+
+.container {
+    border: 2px solid red;
+    margin: 20px 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 100px 7px blue;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 1px 4px 0.1px black;
+    border-radius: 10px;
+    height: 43px;
+}
+
+.button {
+    font-size: 32px;
+    padding-left: 5px;
+    cursor: pointer
+}
+
+.search input:hover {
+    border: 3px solid blue;
+}
+
+.search input:focus {
+    border: 3px solid blue;
+    outline: none;
+}
+
+.temp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-temp .img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.rain {
+    background-image: url('../../assets/images/rain2.webp');
+    background-size: cover;
+}
+
+.cloud {
+    background-image: url('../../assets/images/clouds.webp');
+    background-size: cover;
+}
+
+.haze {
+    background-image: url('../../assets/images/haze.gif');
+    background-size: cover;
+}
+
+.clear {
+    background-image: url('../../assets/images/clear.gif');
+    background-size: cover;
+}
+
+.thunder {
+    background-image: url('../../assets/images/thunder.gif');
+    background-size: cover;
+}
+
+.snow {
+    background-image: url('../../assets/images/snow.webp');
+    background-size: cover;
+}
+
+.drizzle {
+    background-image: url('../../assets/images/drizzle.gif');
+    background-size: cover;
+}
+
+.img-temp h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-temp h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-temp {
+    margin-bottom: 35px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.city h4 {
+    color: rgb(255, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.country h4 {
+    color: rgb(255, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.others {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+@media screen and (max-width:550px) {
+    h3 {
+        font-size: 15px;
+    }
+}
